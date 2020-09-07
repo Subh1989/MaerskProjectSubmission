@@ -1,0 +1,201 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Validate the countdown begins in descending order with user exiting at specific time",
+        "description": "",
+        "id": "validation-of-countdown-timer;validate-the-countdown-begins-in-descending-order-with-user-exiting-at-specific-time;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1192206501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.endTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7633392200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user invokes the browser",
+            "match": {
+              "location": "StepDefination.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4112754700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to the ggtimer home page",
+            "match": {
+              "location": "StepDefination.user_navigates_to_the_ggtimer_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111679300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters \"25 seconds\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25 seconds",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefination.user_enters(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5281731900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on Go button",
+            "match": {
+              "location": "StepDefination.clicks_on_Go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5750362799,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the countdown should begin in descending order and user exits after \"16 seconds\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16 seconds",
+                  "offset": 69
+                }
+              ],
+              "location": "StepDefination.the_countdown_should_begin_in_descending_order_and_user_exits_after(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Validate the countdown begins in descending order with user exiting after countdown ends",
+        "description": "",
+        "id": "validation-of-countdown-timer;validate-the-countdown-begins-in-descending-order-with-user-exiting-after-countdown-ends;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1198627900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.endTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5699013200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user invokes the browser",
+            "match": {
+              "location": "StepDefination.user_invokes_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4175769100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user navigates to the ggtimer home page",
+            "match": {
+              "location": "StepDefination.user_navigates_to_the_ggtimer_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126843300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters \"25 seconds\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25 seconds",
+                  "offset": 13
+                }
+              ],
+              "location": "StepDefination.user_enters(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4965467100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clicks on Go button",
+            "match": {
+              "location": "StepDefination.clicks_on_Go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23235306500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the countdown should begin in descending order and user exits after the countdown ends",
+            "match": {
+              "location": "StepDefination.the_countdown_should_begin_in_descending_order_and_user_exits_after_the_countdown_ends()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Countdown timer",
+    "description": "",
+    "id": "validation-of-countdown-timer",
+    "keyword": "Feature",
+    "uri": "GGtimerPage.feature"
+  }
+]
